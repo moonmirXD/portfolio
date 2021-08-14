@@ -312,6 +312,24 @@ section {
     margin-left: -50%;
     margin-top: 15%;
     width: 100%;
+    -webkit-animation-name: tree;
+            animation-name: tree;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes tree {
+    50% {
+      opacity: .9;
+      margin-left: 0%;
+    }
+  }
+  @keyframes tree {
+    50% {
+      opacity: .9;
+      margin-left: 0%;
+    }
   }
   .portfolio img {
     float: right;
