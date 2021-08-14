@@ -112,13 +112,13 @@ section {
   color: #6e00FF;
   font-weight: bold;
   letter-spacing: .2em;
-  font-size: .85em;
+  font-size: 1em;
 }
 
 .featured-title {
   color: black;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.5em;
   display: block;
   margin-top: -.4em;
 }
@@ -126,7 +126,7 @@ section {
 .featured-desc {
   color: #3b3b3b;
   margin-bottom: 3em;
-  font-size: .85em;
+  font-size: 1em;
   line-height: 1.8em;
   font-weight: 500;
 }
@@ -163,6 +163,7 @@ section {
 }
 
 .skills-container ul li .skill-title {
+  font-size: 1.2em;
   font-weight: bold;
 }
 
