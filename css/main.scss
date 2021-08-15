@@ -24,6 +24,9 @@ img {
     a {
         color: white;
     }
+    a:hover {
+        border-bottom: 3px yellow solid;
+    }
 }
 
 header {
@@ -50,10 +53,14 @@ header {
 
 .hero {
     background-color: #6e00FF;
+    // background-color: white;
     color: white;
     display: grid;
     text-align: center;
     padding: 4em;
+    .scroll {
+        width: 100px;
+    }
 }
 
 .meet {

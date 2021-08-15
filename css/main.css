@@ -27,6 +27,10 @@ img {
   color: white;
 }
 
+.nav-container a:hover {
+  border-bottom: 3px yellow solid;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,6 +68,10 @@ header ul a {
   display: grid;
   text-align: center;
   padding: 4em;
+}
+
+.hero .scroll {
+  width: 100px;
 }
 
 .meet {
