@@ -62,7 +62,8 @@ header ul a {
 }
 
 .hero {
-  background-color: #261C2C;
+  background: url("../img/pexels-olenka-sergienko-5686482.jpg") no-repeat fixed center;
+  background-size: cover;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -81,7 +82,9 @@ header ul a {
   margin: 0 auto;
   width: 200px;
   font-weight: bold;
-  color: #6E85B2;
+  color: whitesmoke;
+  text-shadow: 2px 2px #ff0000;
+  font-size: 1em;
 }
 
 .meet span {
@@ -305,7 +308,8 @@ section {
     padding: 0;
   }
   .hero .content {
-    background: #261C2C;
+    background: url("../img/pexels-olenka-sergienko-5686482.jpg") no-repeat fixed center;
+    background-size: cover;
     padding: 6em 8em 6em 4em;
     text-align: left;
   }
